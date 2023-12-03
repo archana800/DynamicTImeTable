@@ -44,13 +44,6 @@ namespace TimeTable1.Controllers
         {
             return View(inputFields);
         }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 
     #endregion
